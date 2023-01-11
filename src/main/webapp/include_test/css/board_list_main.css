@@ -1,0 +1,101 @@
+#main{
+    width: 758px;
+    float: right;
+    /* border: 1px solid red; */
+}
+#board_title{
+    margin-top: 20px;
+    padding: 0 0 5px 0;
+    border: 1px solid #bbbbbb;
+}
+#total_search{
+    height: 35px;
+    position: relative;
+}
+#total{
+    position: absolute;
+    top: 10px;
+}
+#search{
+    /* border: 1px solid red; */
+    position: absolute;
+    left: 460px;
+}
+#select_img{
+    position: absolute;
+    top: 9px;
+}
+#search_select{
+    position: absolute;
+    top:5px; left: 60px;
+}
+#search_input{
+    position: absolute;
+    top: 7px; left: 130px;
+}
+#search_input input{
+    width: 100px;
+}
+#search_btn {
+    position: absolute;
+    top: 6px; width: 100px;
+}
+table{
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 100%;
+}
+tr{
+    height: 30px;
+}
+th{
+    border-top: 2px solid #aaaaaa ;
+    background-color: #eeeeee;
+}
+td{
+    border-bottom: 1px solid #dddddd;
+}
+td.col1{
+    width: 60px;
+    text-align: center;
+}
+
+td.col3{
+    width: 60px;
+    text-align: center;
+}
+td.col4{
+    width: 80px;
+    text-align: center;
+}
+td.col5{
+    width: 60px;
+    text-align: center;
+}
+td a:link{
+    text-decoration: none;
+    color: #444444;
+}
+td a:hover{
+    text-decoration: none;
+    color: #444444;
+}
+td a:visited{
+    text-decoration: none;
+    color: #444444;
+}
+td a:active{
+    text-decoration: none;
+    color: #444444;
+}
+#buttons{
+    margin-top: 20px;
+}
+#buttons .col1{
+    float: left;
+    margin-left: 300px;
+}
+#buttons .col2{
+    float: right;
+    margin-left: 10px;
+}

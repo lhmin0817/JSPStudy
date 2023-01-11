@@ -1,0 +1,96 @@
+header{ 
+    /* border: 1px solid red; */
+    height: 100px; 
+    position: relative;
+}
+header a:link{
+    text-decoration: none;
+    color: #444444;
+}
+header a:hover{
+    text-decoration: none;
+    color: #444444;
+}
+header a:visited{
+    text-decoration: none;
+    color: #444444;
+}
+header a:active{
+    text-decoration: none;
+    color: #444444;
+}
+#logo{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+#top-menu{
+    position: absolute;
+    top: 10px;
+    left: 770px;
+}
+#menu{
+    position: absolute;
+    top: 40px;
+    left: 210px;
+    width: 757px; height: 38px;
+    background-image: url(../img/main_menu_bg.png);
+    background-repeat: no-repeat;
+}
+#menu li{
+    display: inline-block;
+    margin: 12px 30px 0 50px;
+    font-size: 13px;
+}
+#menu a:link{
+    text-decoration: none;
+    color: #ffffff;
+}
+#menu a:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+#menu a:visited{
+    text-decoration: none;
+    color: #ffffff;
+}
+#menu a:active{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+aside{
+    /* border: 1px solid red; */
+    width: 190px; 
+    float: left;
+}
+#login-box{
+    width: 190px; height: 120px;
+    border-radius: 10px;
+    border: 1px solid #dddddd;
+    background-color: #f3f3f3;
+}
+#ttl_login{
+    margin: 10px 0 0 10px;
+}
+#login-button{
+    margin: 10px 0 0 10px;
+}
+#login-input{
+    float: left;
+}
+#btn_login{
+    float: left;
+    margin: 3px 0 0 5px;
+}
+#login-input input{
+    width: 100px; height: 20px;
+    border: 1px solid #dddddd;
+    margin: 0 0 0 10px;
+}
+#login-input li{
+    margin-top: 3px;
+}
+#join-search{
+    margin: 60px 0 0 5px;
+}

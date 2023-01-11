@@ -1,0 +1,39 @@
+#board_title{
+    margin-top: 20px;
+    padding: 0 0 5px 0;
+}
+#view_title{
+    margin: 10px 0 0 0;
+    padding: 10px;
+    border-top: 2px solid #aaaaaa;
+    background-color: #eeeeee;
+}
+#info{
+    margin: 0 0 0 270ox;
+}
+#view_content{
+margin-top: 20px ;
+}
+#comments_box{
+    height: 112px;
+    position: relative;
+    background-color: #efefef;
+    border: 1px solid #cccccc;
+}
+#title_comments{
+    position: absolute;
+    top: 15px; left: 15px;
+}
+#comments_box textarea{
+    width: 515px; height: 80px;
+    position: absolute;
+    top: 15px; left: 150px;
+}
+#ok_ripple{
+    position: absolute;
+    top: 15px; left: 670px;
+}
+#buttons{
+    text-align: right;
+    margin: 20px 0 0 0;
+}

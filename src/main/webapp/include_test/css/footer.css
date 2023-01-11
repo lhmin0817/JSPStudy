@@ -1,0 +1,21 @@
+footer{
+    /* border: 1px solid red; */
+    height: 100px; 
+    margin-top: 30px;
+    border-top: 1px #dddddd;
+}
+#footer-logo{
+    float: left;
+    margin: 5px 0 0 210px;
+}
+#address{
+    float: left;
+    margin: 20px 0 0 50px;
+}
+#foorer-sns{
+    float: right;
+    margin: 20px 10px 0 0;
+}
+#foorer-sns li{
+    display: inline;
+}

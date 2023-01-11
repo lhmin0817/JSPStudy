@@ -1,0 +1,20 @@
+*{
+    margin: 0; padding: 0;
+}
+body{
+    font-family: "맑은 고딕", "돋음";
+    font-size: 12px;
+    color: #444444;
+}
+ul{
+    list-style: none;
+}
+.clear{
+    clear: both;
+}
+#page{
+    /* border: 1px solid red; */
+    width: 970px;
+    margin: 0 auto;
+}
+

@@ -1,0 +1,46 @@
+#sub-menu{
+    width: 186px; height: 320px;
+    margin-top: 15px;
+    background-image: url(../img/sub_menu_bg.png);
+    background-repeat: no-repeat;
+    /* border: 1px solid red; */
+}
+#sub-menu ul{
+    padding: 80px 0 0 30px;
+}
+#sub-menu li{
+    margin: 10px 0 0 0;
+}
+#sub-menua a:link{
+    text-decoration: none;
+    font-size: 14px;
+    color: #444444;
+}
+#sub-menua:hover{
+    text-decoration: none;
+    font-size: 14px;
+    color: #0000ff;
+    font-weight: bold;
+}
+#sub-menu a:visited{
+    text-decoration: none;
+    font-size: 14px;
+    color: #444444;
+}
+#sub-menu a:active{
+    text-decoration: none;
+    font-size: 14px;
+    color: #444444;
+}
+#sub-banner{
+    width: 186px; height: 156px;
+    margin: 15px 0 0 0;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+}
+#sub-banner ul{
+    padding: 6px 0 0 4px;
+}
+#sub-banner li{
+    display: block;
+}
