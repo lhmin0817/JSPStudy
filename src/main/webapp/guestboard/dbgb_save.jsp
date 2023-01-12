@@ -12,7 +12,7 @@ response 객체  : 서버에서 클라이언트에게 정보를 처리하는 객
 <% request.setCharacterEncoding("UTF-8"); %>
 
 <!-- DB를 접속하는 파일을 include 해서 사용 -->
-<%@ include file="conn_oracle.jsp" %>
+<%@ include file="conn_mysql.jsp" %>
 
 <!-- 폼에서 넘겨주는 변수와 값을 받아서 저장 : request.getParameter("변수명"); -->
 <%
@@ -77,7 +77,7 @@ response 객체  : 서버에서 클라이언트에게 정보를 처리하는 객
 	//  dbgb_save.jsp : 폼에서  받은 값을 DB에 저장이 완료되면 출력 페이지로 이동
 	
 %>
-<jsp:forward page="dbgb_show03.jsp"/>
+<jsp:forward page="dbgb_show.jsp"/>
 <!DOCTYPE html>
 <html>
 <head>

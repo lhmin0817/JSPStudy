@@ -4,7 +4,7 @@
 <!-- 필요한 라이브러리 등록 -->
 <%@ page import="java.sql.*, java.util.*"%>
 <!-- DB의 값을 select해서 select한 값을 출력 -->
-<%@ include file="conn_oracle.jsp"%>
+<%@ include file="conn_mssql.jsp"%>
 <!DOCTYPE html>
 <html>
 <head>
