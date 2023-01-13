@@ -61,20 +61,16 @@ try {
 	sql = "insert into freeboard (id, name, password, email, subject, content, inputdate,masterid, readcount, replaynum, step)";
 	sql = sql + " values(" + id + ",'" + na + "','" + pw + "','" + em + "','" + sub + "','" + cont + "','" + ymd + "'," + id + ","
 	+ "0 ,0 ,0)";
-	
-
 
 	//out.println(sql);
 	//if (true)
 		//return; //프로그램을 중지 시킴. 디버깅할 때 사용
 	stmt.executeUpdate(sql);//DB저장 완료 commit을 자동으로 처리
 	
-
-
 } catch (Exception e) {
 	out.println("오류 발생 <p/>");
 	out.println("고객센터 이용 문의 바람 <p/>");
-	e.printStackTrace();
+	//e.printStackTrace();
 } finally {
 	if (conn != null)
 		conn.close();
