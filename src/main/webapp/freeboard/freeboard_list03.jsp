@@ -246,13 +246,13 @@
 			<TABLE border=0 width=600 cellpadding=0 cellspacing=0>
 				<TR>
 					<TD align=right width="241"><SELECT name=stype>
-							<OPTION value=1>이름
-							<OPTION value=2>제목
-							<OPTION value=3>내용
-							<OPTION value=4>이름+제목
-							<OPTION value=5>이름+내용
-							<OPTION value=6>제목+내용
-							<OPTION value=7>이름+제목+내용
+							<OPTION value=1>이름</OPTION>
+							<OPTION value=2>제목</OPTION>
+							<OPTION value=3>내용</OPTION>
+							<OPTION value=4>이름+제목</OPTION>
+							<OPTION value=5>이름+내용</OPTION>
+							<OPTION value=6>제목+내용</OPTION>
+							<OPTION value=7>이름+제목+내용</OPTION>
 					</SELECT></TD>
 					<TD width="127" align="center"><INPUT type=text size="17"
 						name="sval"></TD>
